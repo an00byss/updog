@@ -11,6 +11,8 @@ Updog is a replacement for Python's `SimpleHTTPServer`.
 It allows uploading and downloading via HTTP/S, 
 can set ad hoc SSL certificates and use HTTP basic auth.
 
+### This fork adds option to disable file upload.
+
 <p align="center">
   <img src="https://sc0tfree.squarespace.com/s/updog-screenshot.png" alt="Updog screenshot"/>
 </p>
@@ -32,6 +34,7 @@ Install using pip:
 | --password PASSWORD                 | Use a password to access the page. (No username) |
 | --ssl                               | Enable transport encryption via SSL              |
 | --version                           | Show version                                     |
+| --disable                           | [yes] to disable file upload                     |
 | -h, --help                          | Show help                                        |
 
 ## Examples
