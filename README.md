@@ -25,7 +25,7 @@ Install using pip:
 
 ## Usage
 
-`updog [-d DIRECTORY] [-p PORT] [--password PASSWORD] [--ssl]`
+`updog [-d DIRECTORY] [-p PORT] [--password PASSWORD] [--ssl] [--disable yes|no]`
 
 | Argument                            | Description                                      |
 |-------------------------------------|--------------------------------------------------| 
